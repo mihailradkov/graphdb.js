@@ -33,7 +33,7 @@ describe('ServerClient', () => {
       const server = new ServerClient(config);
       expect(server.config).toEqual({
         endpoint: 'server/url',
-        timeout: 100,
+        timeout: 0,
         headers: {}
       });
     });
