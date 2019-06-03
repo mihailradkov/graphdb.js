@@ -1,6 +1,6 @@
 const {defaults} = require('jest-config');
 const CONFIG = require('./jest.config');
-const REPORT_DIR = 'report';
+const REPORT_DIR = 'coverage';
 
 /*
  * Additional report configurations for Jest framework.
