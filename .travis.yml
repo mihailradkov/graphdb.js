@@ -13,9 +13,9 @@ branches:
 
 cache: npm
 
-env:
-  global:
-    - CC_TEST_REPORTER_ID=ABC123
+#env:
+#  global:
+#    - CC_TEST_REPORTER_ID=ABC123
 
 # TODO: move in script
 before_script:
