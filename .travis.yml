@@ -29,7 +29,7 @@ script:
   - npm run test:coveralls
 
 after_script:
-  - ./cc-test-reporter after-build
+  - ./cc-test-reporter after-build -t lcov
 
 # TODO: Notifications on failure ?
 
